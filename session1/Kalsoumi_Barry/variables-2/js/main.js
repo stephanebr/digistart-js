@@ -1,5 +1,11 @@
 console.log('Bienvenue dans votre deuxième exercice JavaScript !');
 
+var color
+color = "rouge"
+var age
+age = 63
+
+
 // TODO: ÉTAPE 1
 // Déclarer deux variables nommées "color" et "age"
 // sans leur assigner de valeur.
