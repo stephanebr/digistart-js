@@ -7,7 +7,7 @@ console.log('Vous êtes dans les exercices sur les types');
 // Écrire 4 variables, 1 en dessous de chaque ligne avec leurs valeurs :
 // - une variable qui s'appelle firstName de type string qui contient votre prénom
 
-
+var firstName = laila
 
 // TODO: ÉTAPE 2
 // - une variable qui s'appelle age de type number qui contient votre age

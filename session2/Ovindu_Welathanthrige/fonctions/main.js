@@ -6,6 +6,8 @@ console.log('Vous êtes dans les exercices sur les fonctions');
 // TODO: ÉTAPE 1
 // Créer une fonction sayHello qui imprime "Bonjour" dans la console
 
+var sayHello = "Bonjour";
+console.log(sayHello);
 
 
 
@@ -20,7 +22,8 @@ console.log('Vous êtes dans les exercices sur les fonctions');
 // Créer une fonction sayHelloName qui prend en paramètre le nom d'une personne, et
 // qui imprime "Bonjour " suivi du nom de la personne dans la console.
 
-
+var sayHelloName = "john";
+var
 
 
 // TODO: ÉTAPE 2
