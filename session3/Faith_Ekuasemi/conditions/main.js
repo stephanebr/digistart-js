@@ -5,11 +5,14 @@ console.log('Vous êtes dans les exercices sur les conditions');
 // ------ TODO 1 ------ 
 // 1. Créer une variable color1 qui contient la valeur "rouge"
 
-
+if (color1==="rouge"
+console.log(vraiColor)
 
 
 // 2. Créer une variable color2 qui contient la valeur "green"
 
+if (color==="green")
+{console.log}(vraivrai)
 
 
 
@@ -17,7 +20,7 @@ console.log('Vous êtes dans les exercices sur les conditions');
 // - si la variable est égale à "rouge", affichez "fraise" dans la console
 // - si la variable est égale à "green", affichez "pomme" dans la console
 
-
+if (color===rouge
 
 
 
