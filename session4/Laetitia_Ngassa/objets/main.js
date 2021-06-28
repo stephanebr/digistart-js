@@ -10,33 +10,46 @@ console.log('Vous êtes dans les exercices sur les objets (objects)');
 // - city: Votre ville
 
 
+var student = {
+  name: 'Laetitia',
+  age: '41',
+  city: 'Le Cannet',
+};
 
 // 2. Afficher dans la console l'objet student.
 
-
+console.log (student); 
 
 
 // ------ TODO 2 ------
 var user = {
   name: 'John',
-  age: 30
+  age: '30',
 };
 
 // 1. Ajouter une propriété (clé) "city" de valeur "Paris" à l'objet user.
 
-
+var user = {
+  name: 'John',
+  age: '30',
+  city: 'Paris',
+};
 
 // 2. Afficher dans la console l'âge de John.
 
-
+console.log (age)
 
 // 3. Remplacer la valeur de "city" avec "Nice".
-
+var user = {
+  name: 'John',
+  age: '30',
+  city: 'Nice',
+};
 
 
 // 4. Afficher dans la console un tableau des propriétés (clés) de l'objet user grâce à la méthode keys.
 
-
+Object.keys (student); // ['name', 'age', 'city'];
 
 
 // ------ TODO 3 ------
@@ -44,7 +57,7 @@ var users = [user, { name: 'Emma', age: 32, city: 'London' }];
 
 // 1. Afficher dans la console l'objet dont le name est "Emma".
 
-
+console.log (name); // ['emma'];
 
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
@@ -86,7 +99,22 @@ var library = [
 }];
 
 // 1. Changer la propriété read du livre titré 'Steve Jobs' à true.
-
+var library = [
+  {
+    author: 'Bill Gates',
+    title: 'The Road Ahead',
+    read: true
+  },
+  {
+    author: 'Walter Isaacson',
+    title: 'Steve Jobs',
+    read: true
+  },
+  {
+    author: 'Suzanne Collins',
+    title: 'Mockingjay: The Final Book of The Hunger Games',
+    read: false
+}];
 
 
 // 2. Ajouter un nouvel objet correspondant à un livre dans le tableau en suivant le même format.
