@@ -6,28 +6,50 @@ var nombres = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048];
 
 // TODO: ÉTAPE 1
 // À l'aide d'une boucle for, afficher dans la console toutes les valeurs
+for (var i = 0; i < nombres.length; i++){
+  console.log(nombres[i]);
+} 
+
+
 // contenues dans le tableau `nombres`, une par une.
 
 // TODO: ÉTAPE 2
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, sauf les deux premières.
 
+for(var i = 2; i< nombres.length; i++){
+  console.log(nombres[i]);
+}
 // TODO: ÉTAPE 3
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, sauf les trois dernières.
-
+for(var i =0; i = nombres.length - 3; i++){
+  console.log(nombres[i]);
+}
 // TODO: ÉTAPE 4
 // Avec une autre boucle for, afficher dans la console toutes les valeurs
 // du tableau `nombres`, une par une, mais en commençant par la dernière
 // valeur et en terminant par la première.
+var nbNombres = nombres.reverse();
 
+for(vari = 0; i < nbNombres.length; i++){
+  console.log(nbNombres[i]);
+}
 // TODO: ÉTAPE 5
 // Avec une autre boucle for, afficher dans la console uniquement les
 // valeurs du tableau `nombres` ayant un indice pair (0, 2, 4, etc.),
-// une par une.
+// une par un
+var nombres = [1,2,4,8,16,32,64,128,256,512,1024,2048];
 
+for(var i = 0; i < nombres.length; i = i+2){
+  console.log(numbers[i]);
+}
 var prenoms = ['Ali', 'Nour', 'Jean', 'Carole', 'Ibrahim', 'Alma'];
-
+for(var i = 0; i < prenoms.length; i = i + 2){
+  console.log(prenoms[i]);
+  
+  }
+for(var i = 0; i < nombres)
 // TODO: ÉTAPE 6
 // À l'aide d'une boucle for, afficher dans la console des messages
 // qui saluent chaque prénom contenus dans le tableau `prenoms`.
