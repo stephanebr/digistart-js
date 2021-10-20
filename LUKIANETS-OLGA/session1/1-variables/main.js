@@ -4,7 +4,9 @@ console.log('Bienvenue dans votre premier exercice sur JavaScript !');
 // 1. Afficher dans la console le mois actuel en assignant la bonne valeur à la variable `month` ci-dessous.
 // Libre à vous de choisir le format : soit le numéro, soit le nom du mois.
 
-var month;
+
+var month="Octobre";
+console.log("Nous sommes "  month);
 
 // 2. Afficher dans la console le mois prochain
 // en modifiant la variable `month` ci-dessus,
