@@ -6,7 +6,10 @@ console.log('Vous êtes dans les exercices sur les types');
 // TODO: ÉTAPE 1
 // Écrire 4 variables, 1 en dessous de chaque ligne avec leurs valeurs :
 // - une variable qui s'appelle firstName de type string qui contient votre prénom
-
+var firstName="Tenzin GYASHETSANG";
+var worldCode="is code the next big thing";
+var runnyNose="My nose is running";
+var happy="Hello";
 
 
 // TODO: ÉTAPE 2

@@ -13,7 +13,7 @@ var percentTaxes = 0.22;
 
 
 // TODO 1. Déclarez une nouvelle variable "annualSalaryNet". Cette variable corresponds au calcul du salaire brut vers net
-
+var annualSalaryNet;
 
 // TODO 2. Assignez a cette variable le résultat du calcul en utilsant les variables 'annualSalaryBrut' et 'percentTaxes'.
 // Indice: il y a une soustraction et une multiplacation 

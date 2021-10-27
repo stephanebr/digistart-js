@@ -5,27 +5,24 @@ console.log("Vous êtes dans les exercices sur les méthodes");
 // ------ TODO 1 - Les Strings------ 
 // TODO: ÉTAPE 1
 // Écrire une variable du nom de votre choix, et de valeur de type String.
-
+var color = "rouge"
 
 
 
 // TODO: ÉTAPE 2
 // Afficher sa longueur dans la console grâce à la propriété "length".
-
+console.log(color.length);
 
 
 
 // ------ TODO 2 ------ 
 // TODO: ÉTAPE 1
 // Ajouter un espace au début ou à la fin de votre string.
-
-
-
-
+color = color +" ";
 
 // TODO: ÉTAPE 2
 // Afficher sa longueur dans la console, et observez la différence.
-
+console.log(color.length);
 
 
 
