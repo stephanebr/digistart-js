@@ -8,11 +8,15 @@ console.log('Vous êtes dans les exercices sur les objets (objects)');
 // - name : Votre nom
 // - age : Votre age
 // - city: Votre ville
-
+var student = {
+  name: "Florian",
+  age: 30,
+  city: "Paris"
+};
 
 
 // 2. Afficher dans la console l'objet student.
-
+console.log(student);
 
 
 
@@ -23,15 +27,16 @@ var user = {
 };
 
 // 1. Ajouter une propriété (clé) "city" de valeur "Paris" à l'objet user.
-
+user.city = "Paris";
 
 
 // 2. Afficher dans la console l'âge de John.
-
+console.log(user['age']);
 
 
 // 3. Remplacer la valeur de "city" avec "Nice".
-
+user.city = "Nice";
+console.log(user);
 
 
 
@@ -39,12 +44,13 @@ var user = {
 var users = [user, { name: 'Emma', age: 32, city: 'London' }];
 
 // 1. Afficher dans la console l'objet dont le name est "Emma".
-
+console.log(users[1]);
 
 
 // 2. Afficher dans la console "John", en accédant aux élements du tableau
 // puis à la propriété de l'objet.
-
+console.log(users[0]);
+console.log(users[0].age);
 
 
 

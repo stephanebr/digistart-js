@@ -17,7 +17,7 @@ var annualSalaryNet;
 
 // TODO 2. Assignez a cette variable le résultat du calcul en utilsant les variables 'annualSalaryBrut' et 'percentTaxes'.
 // Indice: il y a une soustraction et une multiplacation 
-
+annualSalaryNet=""
 
 // TODO 3. Affichez sa valeur à l'aide de la méthode 'console.log(NOM_DE_LA_VARIABLE)',
 // remplacez NOM_DE_LA_VARIABLE par la variable que vous voulez afficher.
