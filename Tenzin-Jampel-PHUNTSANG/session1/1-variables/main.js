@@ -6,7 +6,14 @@ console.log('Bienvenue dans votre premier exercice sur JavaScript !');
 
 var month;
 
+month = "November"
+
+console.log(month)
+
 // 2. Afficher dans la console le mois prochain
 // en modifiant la variable `month` ci-dessus,
 // donc sans supprimer le code de l'étape 1 !
 
+month = "December"
+
+console.log(month)
